@@ -62,7 +62,7 @@ def create_rfm_df(df):
     
     return rfm_df
 
-day_df = pd.read_csv("day.csv")
+day_df = pd.read_csv("Dashboard/day.csv")
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
 
 datetime_columns = ["dteday"]
